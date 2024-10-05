@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Gabarito", system-ui;
+    padding: 10px;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.navbar-s2-hide img{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.navbar-s1{
+    display: flex;
+    align-items: center;
+}
+.navbar-s1 img{
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-s2{
+    display: flex;
+    gap: 40px;
+    font-weight: bold;
+    margin-right: 10%;
+}
+.navbar-s2 p{
+    cursor: pointer;
+    padding: 10px;
+}
+.navbar-s2 p:hover{
+    background-color:#F2F2F2;
+    padding: 10px;
+    border-radius: 15px;
+}
+.navbar-s3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-s3 img{
+    height: 15px;
+    width: 15px;
+    margin-bottom: 10px;
+}
+.navbar-s3-button{
+    align-items: center;
+}
+.navbar-s3-button p{
+        background-color: black;
+        color: white;
+        align-items: center;
+        border-radius: 15px;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 4px;
+        padding-left: 15px;padding-right: 15px;
+        align-items: center;
+        cursor: pointer;
+        border: solid black 1px;
+}
+.navbar-s3-button p:hover{
+   opacity: 60%;
+}
+
+/* header */
+
+.header{
+    margin-top: 50px;
+}
+.header-s1 h1{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+}
+.header-s2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    align-items: center;
+}
+.icon1{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+
+}
+.icon1:hover{
+    border-bottom: solid black 2px;
+}
+.header-s2 img{
+    height: 20px;
+    width: 20px;
+}
+.header-s3{
+    display: flex;
+    justify-content: center;
+}
+.header-s3-inputs{
+    display: flex;
+    width: 800px;
+    border: transparent;
+    border-radius: 40px;
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-s3 input{
+    width: 100%;
+    border: none;
+    font-size: 15px;
+}
+.header-s3-inputs img{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+.header-s3 input:focus{
+    outline: none;
+}
+.header-s3 p{
+    background-color: #34E0A1;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+
+/* backgroundimage */
+
+.sale-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.offers{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
+}
+.offers h1{
+    font-size: 50px;
+    padding: 10px;
+}
+.offers p{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.try-button{
+    align-items: center;
+    cursor: pointer;
+}
+.try-button p{
+    background-color: black;
+    color: yellow;
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.try-button p:hover{
+    transition: 0.5s;
+    background-color: #34E0A1;
+    color: black;
+    border:solid black 1px;
+}
+.image-sec{
+    background-color: #a193e5;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    
+}
+
+.sale-image img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+/* Fav-restaurants */
+
+.top-restaurants{
+    margin-top: 50px;
+    margin-left: 80px;margin-right: 80px;
+    margin-bottom: 80px;
+}
+.top-restaurants h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+}
+.food-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 5px;
+  
+}
+.food-img img{
+    height: 220px;
+    width: 280px;
+    border-radius: 10px;
+}
+.food-img img:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+.rest1{
+    position: relative;
+}
+.rest1 p{
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-weight: bold ;
+    bottom: 2%;
+    left: 3%;
+    cursor: pointer;
+}
+
+
+/* .world-trip */
+
+.world-trip{
+    margin-top: 20px;
+    margin-left: 80px;margin-right: 80px;
+    margin-bottom: 80px;
+}
+.world-trip h2,p{
+    margin-bottom: 10px;
+}
+.favtrips-img{
+    display: flex;
+    justify-content: space-between;
+
+}
+.favtrips-img img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+.favtrips-img p{
+    padding-top:10px;
+    margin-left: 100px;
+}
+.favtrips-img a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.favtrips-img a:hover{
+    color: #6E6E6E;
+    text-decoration: underline;
+}
+
+
+
+/* .coimbatore-trip */
+
+.coimbatore-trip{
+    margin-top: 20px;
+    margin-left: 80px;margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.local-trip{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    cursor: pointer;
+  
+}
+.local-trip img:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+.local-trip img{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+}
+.local-trip p{
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+
+
+/* Explore section */
+
+.more-to-explore{
+    background-color: #F2F1EC;
+}
+.explore-s1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    margin-left: 80px;margin-right: 80px;
+    margin-bottom: 80px;
+}
+.explore-s1 h2{ 
+    padding-bottom: 20px;
+}
+.explore-imgsec{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.explore-img1 img{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+.explore-img1 img:hover{
+    opacity: 75%;
+}
+.explore-img1 p{
+    font-size: 17px;
+    width: 80%;
+    padding: 10px;
+    margin-left: 30px;
+}
+.explore-img1 a{
+    text-decoration: none;
+    color: black;
+}
+.explore-img1 a:hover{
+    text-decoration: underline;
+    color: #6E6E6E;
+    cursor: pointer;
+}
+
+
+
+/* .next-trip */
+
+
+.next-trip{
+    margin-top: 50px;
+    margin-left: 80px;margin-right: 80px;
+    margin-bottom: 80px;
+}
+.next-trip h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+}
+.place-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 5px;
+  
+}
+.place-img img{
+    height: 250px;
+    width: 290px;
+    border-radius: 10px;
+}
+.plac1{
+    position: relative;
+}
+.plac1 p{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    font-weight: bold ;
+    bottom: 2%;
+    left: 3%;
+    width: 50px;
+    cursor: pointer;
+}
+.place-img img:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+
+.footer{
+    background-color: #F2F2F2;
+}
+.footer-sec1{
+    display: flex;
+    gap: 90px;
+    padding: 10px;
+    margin-left: 100px;
+
+}
+.footer-sec1 a{
+    text-decoration: none;
+    color: black;
+}
+.footer-sec1 a:hover{
+    text-decoration: underline;
+}
+.sec2-s1 img{
+    height: 40px;
+    width: 40px;
+    
+}
+.footer-sec2{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-left: 100px;
+}
+.sec2-s2{
+    width: 700px;
+    padding-left: 10px ;
+}
+.sec2-s2 a{
+    padding: 5px;
+    color: #545454;
+    cursor: pointer;
+}
+.sec2-s2 p{
+    font-size: 12px;
+    padding: 5px;
+}
+.sec2-s3{
+    margin-left: 280px;
+}
+.sec2-s3 select{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid black 1px 50%;
+    cursor: pointer;
+}
+.sec2-s3 select:focus{
+    outline: none;
+}
+.logos{
+    display: flex;
+    gap: 20px;
+}
+.sec2-s3 img{
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+    .navbar-s2,.navbar-s3{
+        display: none;
+    }
+    body{
+        font-size: 15px;
+         width: 100%;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .navbar-s2-hide img{
+        display: block;
+        padding-right: 20px;
+    }
+    .offers h1{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .offers p{
+        font-size: 10px;
+        margin-left:30px;
+    }
+    .try-button p{
+        font-size: 10px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .favtrips-img,.food-img{
+        gap: 20px;
+    }
+    .header-s1 h1{
+        font-size: 40px;
+    }
+    .header-s2 img{
+        font-size: 14px;
+        align-items:center;
+
+    }
+    .header-s2 p{
+        font-size: 10px;
+        width: 30px;
+    }
+    .footer-sec1{
+        font-size: 10px;
+        gap: 0;
+        margin: 0;
+    }
+   .footer-sec2{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    display: block;
+   }
+   .footer-sec2 p{
+    width: 350px;
+   }
+   .sec2-s1 img{
+    margin-left: 100px;
+   }
+   .sec2-s3{
+    margin: 100px;
+    margin-bottom: 20px;
+   }
+   .header-s3-inputs{
+    width: 500px;
+    position: relative;
+    border-radius: 10px;
+    
+   }
+   .header-s3-inputs input{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    width:400px;
+    border-bottom: solid gray 1px;
+    padding-bottom: 10px;
+    
+   }
+   .header-s3-inputs img{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+   }
+   .header-s3{
+    height: 150px;
+   }
+  
+   .header-s3 p{
+     position: absolute;
+     display: flex;
+     width: 200px;
+     top: 45%;
+     left: 25%;
+     justify-content: center;
+   }
+   .food-img{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    border-bottom: solid black 2px;
+    padding-bottom: 20px;
+   }
+   .food-img p{
+    font-size: 20px;
+   }
+   
+.food-img img{
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+}
+.top-restaurants{
+    margin-top: 20px;
+    margin-left: 30px;margin-right: 30px;
+    margin-bottom: 80px;
+}
+.favtrips-img{
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+.favtrips-img img{
+    width: 250px;
+    height: 250px;
+}
+.world-trip{
+    margin-top: 20px;
+    margin-left: 30px;margin-right: 30px;
+    margin-bottom: 80px;
+    border-bottom:solid black 2px ;
+    padding-bottom: 20px;
+}
+
+.coimbatore-trip{
+    margin-top: 20px;
+    margin-left: 30px;margin-right: 30px;
+    margin-bottom: 80px;
+}
+.local-trip{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    font-size: 12px;
+    border-bottom: solid black 2px;
+    padding-bottom: 20px;
+}
+.local-trip img{
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+
+}
+.local-trip p{
+    font-size: 15px;
+    width: 100px;
+}
+.next-trip{
+    margin-top: 50px;
+    margin-left: 30px;margin-right: 30px;
+    margin-bottom: 80px;
+}
+.place-img img{
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+}
+.place-img{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+flex-grow: 1;
+justify-content: space-around;
+}
+.place-img p{
+    font-size: 20px;
+}
+.explore-imgsec{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 30px;margin-right: 30px;
+    margin-bottom: 40px;
+
+}
+.explore-img1 p{
+     font-size: 15px;
+     margin-left: 5%;
+}
+.explore-img1 img{
+      height: 190px;
+      width: 250px;
+}
+.more-to-explore{
+    width: 95%;
+}
+}
+@media screen and (max-width:500px){
+    .header-s3-inputs{
+        width: 400px;
+        position: relative;
+        border-radius: 10px;
+    }
+    .header-s3-inputs input{
+        width: 300px;
+        padding-left: 10px;
+    }
+    .top-restaurants{
+        margin-top: 20px;
+        margin-left: 30px;margin-right: 30px;
+        margin-bottom: 80px;
+    }
+    .food-img{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-basis: 25%;
+        flex-grow: 1;
+       }
+       .footer-sec2{
+        width: 100%;
+       }
+       .favtrips-img a{
+        width: 220px;
+        font-size: 17px;
+        margin-left: 20px;
+       }
+       .favtrips-img p{
+        margin-left: 32%;
+       }
+}

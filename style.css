@@ -192,7 +192,7 @@ body{
 }
 .image-sec{
     background-color: #a193e5;
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin-top: 60px;
     margin-left: 60px;
@@ -300,7 +300,7 @@ body{
 .local-trip{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 6%;
     cursor: pointer;
   
 }
@@ -338,7 +338,7 @@ body{
 .explore-imgsec{
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 10%;
 }
 .explore-img1 img{
     height: 250px;
@@ -407,7 +407,6 @@ body{
     opacity: 75%;
     cursor: pointer;
 }
-
 
 
 /* footer */
@@ -616,11 +615,6 @@ body{
     padding-bottom: 20px;
 }
 
-.coimbatore-trip{
-    margin-top: 20px;
-    margin-left: 30px;margin-right: 30px;
-    margin-bottom: 80px;
-}
 .local-trip{
     display: flex;
     width: 100%;
@@ -703,15 +697,159 @@ justify-content: space-around;
         flex-basis: 25%;
         flex-grow: 1;
        }
-       .footer-sec2{
+
+    .footer-sec2{
         width: 100%;
        }
-       .favtrips-img a{
+    .favtrips-img a{
         width: 220px;
         font-size: 17px;
         margin-left: 20px;
        }
-       .favtrips-img p{
+    .favtrips-img p{
         margin-left: 32%;
        }
+}
+@media screen and (max-width:450px){
+    .header-s2{
+        width: 400px;
+        gap: 19px;
+    }
+    .header-s3-inputs{
+        width: 300px;
+        position: relative;
+        border-radius: 10px;
+    }
+    .header-s3-inputs input{
+        width: 200px;
+    }
+    .header-s3-inputs img{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+       }
+    .sale-image{
+        height: 250px;
+        margin-bottom: 90px;
+        margin-top: 5px;
+    }
+    .sale-image h1,p{
+        font-size: 15px;
+    }
+    .sale-image h1{
+        padding: 20px;
+        width: 130px;
+        margin-left: 5%;
+    }
+    .sale-image p{
+        padding: 2px;
+        margin-left: 30%;
+    }
+    .try-button p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+        
+    }
+    .image-sec img{
+        height:250px;
+        width: 350px;
+    }
+    .top-restaurants{
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .food-img{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-basis:20%;
+        flex-grow: 1;
+       }
+    .food-img img{
+        flex-wrap: wrap;
+        height: 150px;
+        width: 170px;
+    }
+    .header-s3 p{
+        position: absolute;
+        display: flex;
+        width: 200px;
+        top: 45%;
+        left: 15%;
+        justify-content: center;
+      }
+      .world-trip{
+        margin-top: 20px;
+        margin-bottom: 80px;
+        border-bottom:solid black 2px ;
+        padding-bottom: 20px;
+    }
+    .favtrips-img{
+        flex-wrap: wrap;
+        margin-left: 15%;
+    }
+    .coimbatore-trip{
+        margin-top: 20px;
+        margin-bottom: 80px;
+        width:400px;
+        margin-left: 5%;
+    }
+    .local-trip img{
+        flex-wrap: wrap;
+        height: 150px;
+        width: 160px;
+    
+    }
+    .local-trip{
+        display:flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-basis:20%;
+        flex-grow: 1;
+       }
+    .local-trip p{
+        font-size: 13px;
+    }
+    .explore-s1{
+        width: 100%;
+    }
+    .explore-imgsec{
+        margin-left: 2%;
+    }
+    .explore-imgsec p{
+        width: 220px;
+    }
+    .next-trip{
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .place-img{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-basis:20%;
+        flex-grow: 1;
+       }
+    .place-img img{
+        flex-wrap: wrap;
+        height: 150px;
+        width: 170px;
+    }
+    .footer{
+        width:100%;
+    }
+    .footer-sec1 p{
+        font-size: 13px;
+    }
+    .footer-sec1{
+        gap: 10%;
+    }
+    .logos{
+    padding-bottom: 20px;
+    }
+    .sec2-s2{
+        width: 400px;
+    }
 }
